@@ -1,0 +1,30 @@
+body {
+	background-image: url(https://idinteriorsdesign.com/wp-content/uploads/2022/11/slider-ap-loft-11a.png);
+ 	font-family: Apple Chancery, cursive;
+ 	justify-content: center;
+ 	background-size: cover;
+ 	height: 100vh;
+ 	display: fixed;
+}
+
+.kitchen {
+	background-image: url(https://hips.hearstapps.com/hmg-prod/images/kitchen-island-ideas-1625583421.png?crop=0.853xw:0.602xh;0.134xw,0.237xh&resize=1200:*);
+	height: 320px;
+	width: 270px;
+	margin-top: 70px;
+	margin-left: 40px;
+	border-radius: 10px;
+	padding: 15px;
+
+
+}
+
+#kicen {
+	background: black;
+	opacity: 0.5;
+	border-radius: 10px;
+	width: 280px;
+	height: 340px;
+	margin-left: 40px;
+	margin-top: 60px;
+}

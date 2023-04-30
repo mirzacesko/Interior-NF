@@ -1,0 +1,23 @@
+body {
+	background-image: url(https://idinteriorsdesign.com/wp-content/uploads/2022/11/slider-ap-loft-11a.png);
+ 	font-family: Apple Chancery, cursive;
+ 	justify-content: center;
+ 	background-size: cover;
+ 	height: 100vh;
+ 	display: fixed;
+ 	background-repeat: no-repeat;
+}
+.opasiti {
+	background-color: black;
+	opacity: 0.5;
+	height: 100%;
+	border-radius: 10px;
+	margin: 10px;
+}
+.ipsum {
+	font-size: 15px;
+	color: white !important;
+	margin: 20px;
+	text-align: center;
+}
+

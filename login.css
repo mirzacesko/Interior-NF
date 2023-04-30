@@ -1,0 +1,284 @@
+body {
+	background-image: url(https://idinteriorsdesign.com/wp-content/uploads/2022/11/slider-ap-loft-11a.png);
+ 	font-family: Apple Chancery, cursive;
+ 	justify-content: center;
+ 	background-size: cover;
+ 	height: 100vh;
+ 	display: fixed;
+} 
+
+.uppart {
+	background-color: black;
+	opacity: 0.5;
+	margin: 10px 5px 10px 5px;
+	border-radius: 10px;
+	height: 100px;
+}
+.heder {
+  display: inline-block;
+  position: relative;
+  color: white !important;
+  border: none;
+  margin-top: 35px;
+  background: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.heder::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white !important;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.heder:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#but1 {
+  display: inline-block;
+  position: relative;
+  color: white;
+  border: none;
+  margin-top: 35px;
+  left: 25%;
+  background: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+#but1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+#but1:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+#but2 {
+  display: inline-block;
+  position: relative;
+  color: white !important;
+  border: none;
+  margin-top: 35px;
+  left: 25%;
+  background: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+#but2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white !important;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+#but2:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#but3 {
+  display: inline-block;
+  position: relative;
+  color: white;
+  border: none;
+  margin-top: 35px;
+  left: 25%;
+  background: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+#but3::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+#but3:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#but4 {
+  display: inline-block;
+  position: relative;
+  color: white;
+  border: none;
+  margin-top: 35px;
+  left: 25%;
+  background: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+#but4::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+#but4:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.midpart {
+	background: black;
+	opacity: 0.5;
+	height: 540px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+#startlog {
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white !important;
+	font-size: 40px;
+	opacity: 1;
+}
+.bokslog {
+	width: 320px;
+	height: 400px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	justify-content: center;
+	display: block;
+	margin-left: 38%;
+	margin-top: 20px;
+}
+
+#bokslogbut {
+	background-color: none;
+	border: none;
+	color: blue;
+	font-size: 25px;
+	font-weight: 700;
+	cursor: pointer;
+	font-family: 'Contrail One', cursive;
+}
+
+#boksreg {
+	background-color: none;
+	border: none;
+	color: blue;
+	font-size: 25px;
+	font-weight: 700;
+	cursor: pointer;
+	font-family: 'Contrail One', cursive;
+}
+
+#boksor {
+	color: black;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#entrm {
+	margin-top: 20px;
+	font-size: 20px;
+	justify-content: center;
+	color: black;
+}
+
+.enteruser {
+	height: 20px;
+	width: 200px;
+	border: 2px solid black;
+}
+
+#entrpss {
+	margin-top: 20px;
+	font-size: 20px;
+	justify-content: center;
+	color: black;
+}
+
+.enterpass {
+	height: 20px;
+	width: 200px;
+	border: 2px solid black;
+}
+
+#confpss {
+	margin-top: 20px;
+	font-size: 20px;
+	justify-content: center;
+	color: black;
+}
+
+.confirmpass {
+	height: 20px;
+	width: 200px;
+	border: 2px solid black;
+}
+
+#submitbutt {
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	border-radius: 15px;
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 5px 20px;
+}
